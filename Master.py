@@ -885,8 +885,8 @@ if __name__ == "__main__":
     SLICE_START = 4
     UNIT_THRESHOLD_SCALE = 30
     CYLINDER_COUNT = 5
-    HW_RATIO =  [4.2, 6.2] #[4.5, 6.5]
-    TRUE_RADIUS =  2.93 #4  
+    HW_RATIO =  [4.2, 6.2] #[4.5, 6.5] (4.5-6.5 for larger cylinder (model 1,2,3,4))
+    TRUE_RADIUS =  2.93 #4 (4 for larger cylinder (model 1,2,3,4)) 
     
     # Step 1
     las = LAS(LAS_FILE)
